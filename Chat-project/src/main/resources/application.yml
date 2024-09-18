@@ -1,0 +1,14 @@
+spring:
+  application:
+   name: Chat-project
+  data:
+   mongodb:
+     username: user
+     password: 1234
+     host: localhost
+     port: 27017
+     authentication-database: admin
+     database: chat_app
+
+server:
+  port: 8888
